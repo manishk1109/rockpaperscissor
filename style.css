@@ -126,3 +126,38 @@ h1{
     }
     
 }
+
+@media screen and (max-width:410px) {
+    .backgroundBox{
+        background-color: black;
+        border-radius: 50%;
+        cursor: pointer;
+        height: 120px;
+        width: 120px;
+    }
+    
+    
+    
+    .box{
+        background-color: chartreuse;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    
+    }
+
+    .box:hover{
+        height: 120px;
+        width: 120px;
+    }
+
+    .mszBox{
+        margin-top: 10vw;
+        background-color: rgb(247, 222, 186);
+        text-align: center;
+        font-size: 1.2rem;
+        padding-inline: 20px;
+        padding-block: 10px;
+        border-radius: 20px;
+    }
+}
