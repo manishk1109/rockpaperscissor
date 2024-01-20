@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: 'Noto Serif', serif;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    width: 100%;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-block: 7px;
+}
+
+.gameBox{
+    margin-top: 5vh;
+    justify-content: space-evenly !important ;
+    flex-wrap: wrap;
+    margin-inline: 10vw;
+    gap: 30px;
+}
+
+.backgroundBox{
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 220px;
+    width: 220px;
+}
+
+
+
+
+.box{
+    background-color: chartreuse;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.box img{
+    height: 100%;
+}
+
+.box:hover{
+    height: 220px;
+    width: 220px;
+}
+
+.mszBox{
+    margin-top: 5vw;
+    background-color: rgb(247, 222, 186);
+    text-align: center;
+    font-size: 1.2rem;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 20px;
+}
+
+.resultBox{
+    margin-top: 10vh;
+    justify-content: space-evenly;
+    margin-inline: 20vw;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+@media screen and (max-width:1000px) {
+    .gameBox{
+        margin-top: 3vh;
+        justify-content: space-evenly !important ;
+        flex-wrap: wrap;
+        margin-inline: 0;
+        gap: 50px;
+    }
+    
+    .backgroundBox{
+        background-color: black;
+        border-radius: 50%;
+        cursor: pointer;
+        height: 180px;
+        width: 180px;
+    }
+    
+    
+    
+    .box{
+        background-color: chartreuse;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    
+    }
+
+    .box:hover{
+        height: 180px;
+        width: 180px;
+    }
+
+    .resultBox{
+        margin-top: 5vh;
+        justify-content: space-evenly;
+        margin-inline: 10vw;
+        gap: 50px;
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+    
+}
