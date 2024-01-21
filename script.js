@@ -54,7 +54,7 @@ scissor.addEventListener('click',()=>{
     }
 
     if(cpChoice === "paper"){
-        msz.innerHTML = 'Computer Choice is '+ cpChoice +' : You lose'
+        msz.innerHTML = 'Computer Choice is '+ cpChoice +' : You Won'
         you();
     }
     
@@ -77,7 +77,7 @@ paper.addEventListener('click',()=>{
     }
 
     if(cpChoice === "rock"){
-        msz.innerHTML = 'Computer Choice is '+ cpChoice +' : You lose'
+        msz.innerHTML = 'Computer Choice is '+ cpChoice +' : You Won'
         you();
     }
     
@@ -100,7 +100,7 @@ rock.addEventListener('click',()=>{
     }
 
     if(cpChoice === "scissor"){
-        msz.innerHTML = 'Computer Choice is '+ cpChoice +' : You lose'
+        msz.innerHTML = 'Computer Choice is '+ cpChoice +' : You Won'
         you();
     }
     
